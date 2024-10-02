@@ -13191,10 +13191,38 @@ $$ \Gamma \left( x \right) = \left(x - 1\right)! $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>There are a couple of things to note about the Student distribution table. First is the $ \frac{\alpha}{2} $ term on the top of the table. $ \alpha $ is known as the level of significance. $\frac{\alpha}{2} $ is the shaded area of the diagram, and it's values are the first row of the table (i.e., $0.25$, $0.2$, $0.1$, etc.). Secondly, the degrees of freedom $\nu$ values are shown in the first column. They start at $ 1 $ and go to $35$. There is also an additional row at the bottom that begins with $\infty$. This row would represent the case if an infinite number of data points were collected for a sample. As previously mentioned, the Student distribution approaches that of the normal distribution as the number of data points in a sample increases. Since the degrees of freedom $ \nu $ is just the number of data points in a sample minus one, the same can be said of the degrees of freedom of the Student distribution. The Student distribution approaches that of the normal distribution as the number of degrees of freedom increases. This last row in Table 1 therefore, actually represents the normal distribution perfectly. If you compare the last row of Table 1 to the standard normal distribution table, the values will be identical. The values represented in the middle section of Table 1 are the particular $ t $ values. This arrangement is somewhat opposite of how the standard normal distribution table is setup. In the standard normal distribution table, the table's middle section is the probabilities $ P $ (the shaded area). The first column and row are the random variable $ z $ values. In the Student distribution table, the first row is the probabilities $ \frac{\alpha}{2} $, and the middle section is the random variable $ t $ values.</p>
+<p>There are a couple of things to note about the Student distribution table. 
+  First is the $ \frac{\alpha}{2} $ term on the top of the table. 
+  $ \alpha $ is known as the level of significance. 
+  $\frac{\alpha}{2} $ is the shaded area of the diagram, and it's values are the first row of the table (i.e., $0.25$, $0.2$, $0.1$, etc.). 
+  Secondly, the degrees of freedom $\nu$ values are shown in the first column. 
+  They start at $ 1 $ and go to $35$. There is also an additional row at the bottom that begins with $\infty$. 
+  This row would represent the case if an infinite number of data points were collected for a sample. 
+  As previously mentioned, the Student distribution approaches that of the normal distribution as the number of data points in a sample increases. 
+  Since the degrees of freedom $ \nu $ is just the number of data points in a sample minus one, the same can be said of the degrees of freedom of the Student distribution. 
+  The Student distribution approaches that of the normal distribution as the number of degrees of freedom increases. 
+  This last row in Table 1 therefore, actually represents the normal distribution perfectly. 
+  If you compare the last row of Table 1 to the standard normal distribution table, the values will be identical. 
+  The values represented in the middle section of Table 1 are the particular $ t $ values. 
+  This arrangement is somewhat opposite of how the standard normal distribution table is setup. 
+  In the standard normal distribution table, the table's middle section is the probabilities $ P $ (the shaded area). 
+  The first column and row are the random variable $ z $ values. In the Student distribution table, the first row is the probabilities $ \frac{\alpha}{2} $, and the middle section is the random variable $ t $ values.</p>
+<p>
+  Finally, the student distribution's t-score can be used much like the normal distribution's z-score, but it uses the following conversion: note that it divides by $ S/\sqrt(n) $, not $ S $.
+</p>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt"></div>
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ t = \frac{\bar x - \mu}{\frac{S}{\sqrt n}} $$
 </div>
 </div>
 </div>
+
+
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
