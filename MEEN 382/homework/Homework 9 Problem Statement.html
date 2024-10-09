@@ -13068,7 +13068,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1><div style="text-align: center;">MEEN 382 - Basic Measurements<b>[WIP]</b><br/><u>Homework 9</u></div></h1>
+<h1><div style="text-align: center;">MEEN 382 - Basic Measurements<br/><u>Homework 9</u></div></h1>
 </div>
 </div>
 </div>
@@ -13085,9 +13085,12 @@ and its coefficient of performance is defined by
 determined to within $ 1 \% $ when the nominal value of $ T_c $ and $ T_h $ are $ -10^\circ C $ and $ 20 ^\circ C $, respectively?
     </li>
 <li>
-        A heat transfer experiment is to be run with the anticipated behavior given by
+        Thermistors have a time constant that dictates how quickly it responds to a new temperature. The anticipated behavior is described by 
         $$ \bar T = e^{\frac{-t}{\tau}} $$
-        where $ \bar T $ is a nondimensional temperature that varies from $ 0 $ to $ 1 $ and can be measured within $ 2 \% $, $ t $ is time in seconds and can be measured within $ 1 \% $, and $ \tau $ is the time constant that is to be determined from the experiment. Determine the behavior of the uncertainty in $ \tau $ over the range of possible values for $ \bar T $ . Plot the percent uncertainty of $ \tau $ versus $ \bar T $ for $ \bar T $ from $ 0 $ to $ 1 $.
+        where $ \bar T $ is a normalized nondimensional temperature that varies from $ 0 $ to $ 1 $ and can be measured within $ 2 \% $, $ t $ is time in seconds and can be measured within $ 1 \% $, and $ \tau $ is the time constant that is to be determined from the experiment. 
+        Find how the value of $ \bar T $ affects the uncertainty in $ \tau $ as it changes from 0 to 1. 
+        Plot the percent uncertainty of $ \tau $ versus $ \bar T $ for $ \bar T $ from $ 0 $ to $ 1 $.
+
     </li>
 <li>
         The expression for the efficiency $ \eta $ of an adiabatic turbine is given by
@@ -13108,7 +13111,11 @@ determined to within $ 1 \% $ when the nominal value of $ T_c $ and $ T_h $ are 
 excitation voltage of $ 5 V $. The strain gauge is mounted on a steel cantilever beam. The beam is then loaded with a force at the end of the beam such that the Wheatstone bridge output is $ 0.05 mV $. What is the stress experienced at the location of the strain gauge?
     </li>
 <li>
-        Using your choice of three of the available resistors from the table below, build a Wheatstone bridge that is as balanced as can be for a strain gauge that has nominal value of $ 120 \Omega $. What are the resistors used in the Wheatstone bridge and what is the resulting unbalanced voltage if an excitation voltage of $ 5 V $ is used?
+        You're short on time to build a Wheatstone bridge and realize you have limited options for resistors; you only have the values and quantities listed in the table below.
+        Using three resistors, design a Wheatstone bridge that is as balanced as possible for a strain gauge that has a nominal value of $ 120 \Omega $.
+        What three resistors do you use, and what is the resulting unbalanced voltage if an excitation voltage of $ 5 V $ is used?
+      
+         
         <table>
 <tr><td>Quantity</td><td>Resistor Value $ \left( \Omega \right ) $</td></tr>
 <tr><td>2</td><td>$ 10 $</td></tr>
