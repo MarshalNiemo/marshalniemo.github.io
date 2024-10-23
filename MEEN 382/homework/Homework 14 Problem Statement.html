@@ -13075,38 +13075,9 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><span id="non_engineering_format">Do the following in <a href="Non-Engineering Format Example.pdf" target="_blank">non-engineering format</a>.</span></p>
+  
+<p><span id="non_engineering_format">Do the following in <a href="Engineering Format Example.pdf" target="_blank">engineering format</a>.</span></p>
 <ol>
-  <li>
-    Thermistors have a time constant that dictates how quickly it responds to a new temperature. The anticipated behavior is described by 
-    $$ \bar T = e^{\frac{-t}{\tau}} $$
-    where $ \bar T $ is a normalized nondimensional temperature that varies from $ 0 $ to $ 1 $ and can be measured within $ 2 \% $, $ t $ is time in seconds and can be measured within $ 1 \% $, and $ \tau $ is the time constant that is to be determined from the experiment. 
-    Find how the value of $ \bar T $ affects the uncertainty in $ \tau $ as it changes from 0 to 1. 
-    Plot the percent uncertainty of $ \tau $ versus $ \bar T $ for $ \bar T $ from $ 0 $ to $ 1 $.
-
-</li>
-<li>
-  The brightness of a television picture tube can be evaluated by measuring the amount of current required to achieve a particular brightness level. A sample of 10 tubes results in a mean and standard deviation of $ 317.2 $ and $ 15.7 $, respectively (in $ \mu A $). What is the probability that a television picture tube draws more current than $ 364 \mu A $?
-</li>
-
-<li>
-        Create a calibration curve fit for the data you collected for your thermistor (class 8). Create separate plots for a linear, quadratic, and cubic curve fit. Be sure to include a title, and axis labels with appropriate units. What curve fit is the best fit? Why?
-    </li>
-<li>
-        A low-cost, nominally $ 0 $ to $ 5 lbf $ spring weighing scale has been calibrated by placing accurate weights on its platform. The values of the applied weights range from $ 0 $ to $ 5 lbf $ in $ 0.5 lbf $ increments. The weights are applied in a sequential manner, starting at the lowest value, increasing to the largest value, and then decreasing to the lowest value as seen in the dataset <a href="../datasets/scale_calibration.xlsx" target="_blank">here</a>. Using the calibration data provided, answer the following.
-        <ol style="list-style-type: lower-alpha;">
-<li>Determine the regression coefficients, coefficient of determination, and adjusted coefficient of determination for a linear fit.</li>
-<li>Does the scale have a zero offset? If so, how much?</li>
-<li>Does the scale have a hysteresis?</li>
-</ol>
-</li>
-<li>
-        Modify the <code>linear_coeffs</code> function defined in <a href="../13.Linear Regression.html" target="_blank">13.Linear Regression</a> such that the function finds the linear coefficients for multiple independent variables. The function should return the coefficients $ \beta_0 $, $ \beta_1 $, and $ \beta_2 $ for the functional form of
-        $$ y = f \left( x, z \right) = \beta_0 + \beta_1 x + \beta_2 z $$
-        This type of regression is known as a <a href="https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression" target="_blank">multiple linear regression</a>. Using the <a href="../datasets/body_fat.xlsx" target="_blank">body fat data</a> used in <a href="Homework 4 Problem Statement.html" target="_blank">homework 4</a>, find the linear coefficients (the beta terms) of the multiple linear regression of the body fat (Brozek) data as a function of every possible combination of two of the independent variables neck, chest, thigh, and bicep circumference (6 sets of regression coefficients). How do these multiple linear regression fits compare to a regular linear regression fit (a regression fit with only one independent variable)? Which is the best fit? Why? 
-    </li>
-</ol><p><span id="non_engineering_format">Do the following in <a href="Engineering Format Example.pdf" target="_blank">engineering format</a>.</span></p>
-<ol start="4">
 <li>
         The following set of data are produced by a temperature-measuring device (first order) that is suddenly immersed into a mixture of ice and liquid water. Initially, the device is in ambient air ($20 ^\circ C$). Determine the time constant of this temperature-measuring device.
         <table>
