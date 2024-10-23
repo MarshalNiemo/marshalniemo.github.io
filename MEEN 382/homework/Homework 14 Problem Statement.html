@@ -13111,7 +13111,12 @@ div#notebook {
     <li>The weather forecast suggests a temperature of $45 ^/circ F$, with an uncertainty of $5 ^/circ F$ for the forecast. Estimate the probability of o-ring failure for that day and its uncertainty. 
         Would you permit the launch or argue for a delay? Explain your reasoning.</li>
     <li>What would you consider to be a safe minimum launch temperature? Explain your reasoning.</li>
-
+    </ol>
+  Hints:
+  <ol style="list-style-type: lower-alpha;">
+    <li>Use a logistic regression to model the probability of at least one o-ring failure</li>
+    <li>An SRB has two o-rings for redundancy, so we can allow for one failure but not two. How does this affect your probabilities?</li>
+  </ol>
 </li>
 </ol>
 </div>
