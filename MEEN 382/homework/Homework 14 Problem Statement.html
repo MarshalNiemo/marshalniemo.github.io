@@ -13101,22 +13101,22 @@ div#notebook {
 </li>
 
 <li>
-  You are an engineer working on the Space Shuttle program, and you are tasked with finding the minimal acceptable temperature for launching.
-  The previous 23 launches yielded <a href="../datasets/challenger.csv" target="_blank">this data</a> on launch temperatures and the number of SRB o-rings that failed with each launch. 
+  Before the Challenger disaster, NASA had <a href="../datasets/challenger.csv" target="_blank">this data</a> on launch temperatures and the number of SRB o-rings that failed with each launch. 
   <ol style="list-style-type: lower-alpha;">
-    <li>Plot the probability of o-ring failure</li>
+    <li>Estimate and plot the probability of o-ring failure against the temperature. Describe the curve you used to estimate the probability and your resulting coefficients.</li>
     <li>NASA posted a general requirement for aerospace vehicles to be operable in temperatures as low as $ 31 ^\circ F $. 
-        The solid rocket boosters were intended to be operable in temperatures as low as $ 40 ^\circ F $ (though this was never demonstrated).
-        According to your statistical model, what is the probability of o-ring failure at these temperatures?</li>
-    <li>The weather forecast suggests a temperature of $45 ^\circ F$, with an uncertainty of $5 ^\circ F$ for the forecast. Estimate the probability of o-ring failure for that day and its uncertainty. 
+        The solid rocket boosters were intended to be operable in temperatures as low as $ 40 ^\circ F $ (though this was never demonstrated). 
+        When the Challenger launched, the air temperature was $ 36 ^\circ F$.
+        According to your statistical model, what is the probability of total failure at these temperatures?</li>
+    <li>The weather forecast suggests a temperature of $50 ^\circ F$, with an uncertainty of $9 ^\circ F$ for the forecast. Estimate the probability of o-ring failure for that day and its uncertainty. 
         Would you permit the launch or argue for a delay? Explain your reasoning.</li>
     <li>What would you consider to be a safe minimum launch temperature? Explain your reasoning.</li>
     </ol>
   Notes:
   <ol style="list-style-type: lower-alpha;">
     <li>Use a <a href="https://en.wikipedia.org/wiki/Logistic_regression" target="_blank"> logistic regression model</a> to predict the probability of at least one o-ring failure. 
-      Find a sample Python implementation <a href="../logistic regression example.py" target="_blank">here</a></li>
-    <li>An SRB has two o-rings for redundancy, so we can allow for one failure but not two. How does this affect your probabilities?</li>
+      Find a sample Python implementation <a href="../logistic regression example.py" target="_blank">here.</a></li>
+    <li>An SRB has two o-rings for redundancy, so we can allow for one failure but not two. How does this affect your probabilities and your criteria to allow a launch?</li>
   </ol>
 </li>
 </ol>
