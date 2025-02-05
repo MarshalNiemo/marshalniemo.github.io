@@ -13096,35 +13096,8 @@ div#notebook {
 </div>
 </li>
 <li>
-  Given the photoresistor data collected in this class <a href="../datasets/photocell_data.csv" target="_blank">here</a>, estimate the luminance of the provided light source.
-  Identify all sources of uncertainty.
-</li>
-
-<li>
-  Before the Challenger disaster, NASA had collected <a href="../datasets/challenger.csv" target="_blank"> data</a> on launch temperatures and solid rocket booster (SRB) O-ring failures per launch. 
-  <ol style="list-style-type: lower-alpha;">
-    <li>Estimate and plot the probability of O-ring failure as a function of temperature using the provided data. 
-        Cleary describe the statistical model you used to make this estimation, and report any coefficients obtained.</li>
-    <li>NASA required aerospace vehicles to be operable in temperatures as low as $ 31 ^\circ F $. 
-        The SRBs were specifically intended to function in temperatures as low as $ 40 ^\circ F $ although this was never demonstrated. 
-        When the Challenger launched, the air temperature was $ 36 ^\circ F$.
-        Based on your model, estimate the probability of one or two O-rings failing at each temperature.</li>
-    <li>Suppose the weather forecast predicts a temperature of $50 ^\circ F$ on the planned launch day, with an uncertainty of $\pm 9 ^\circ F$. 
-        Use your model to produce an estimate of the probability of at least one O-ring failing. 
-        Would you recommend proceeding with the launch, or argue for a delay? Justify your decision. 
-        </li>
-    <li>Based on your analysis, what do you consider to be a safe minimum launch temperature? 
-      Provide a rationale for your choice.</li>
-    </ol>
-  Notes:
-  <ol style="list-style-type: lower-alpha;">
-    <li>  This problem is worth double for this assignment. </li>
-    <li>  Use a <a href="https://en.wikipedia.org/wiki/Logistic_regression" target="_blank"> logistic regression model</a> to predict the probability of at least one o-ring failure. 
-          You can refere to a sample Python implementation <a href="../logistic regression example.py" target="_blank">here.</a></li>
-    <li>  Each SRB is equipped with two O-rings for redundancy. 
-          A single O-ring failure is tolerable, but a double failure is not. 
-          Consider how this redundancy affects the probabilities you calculate and your criteria for recommending a launch.</li>
-  </ol>
+  Given the photoresistor data collected in this class <a href="../datasets/photocell_data_252.csv" target="_blank">here</a>, estimate the luminance of the provided light source.
+  You may reject outlier data points; provide your reasoning for doing so.
 </li>
 </ol>
 </div>
