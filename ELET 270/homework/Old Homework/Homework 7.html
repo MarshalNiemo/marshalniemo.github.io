@@ -2950,31 +2950,27 @@ vertical-align: -.125em;
 
     
   
-  <div>
+    <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified"><span id="lastModified"></span></p>
-    
+      <p class="date-modified">Tu 2023-03-21 16:04</p>
+    </div>
   </div>
     
-</div>
+  </div>
+  
 
-<script>
-  document.getElementById("lastModified").textContent = document.lastModified;
-</script>
 </header>
 
+<div class="due-header">
+<p>Due</p>
+</div>
+<div class="due-content">
+<p>Mo 2023-04-03 14:00</p>
+</div>
 <hr>
 <p>Do the following in <a href="Engineering%20Format%20Example.pdf">engineering format</a>.</p>
 <ol type="1">
-  <li>
-      You set up an Arduino with a thermistor circuit in a Nethken classroom and collect the following analog values:<br/><br/>
-  <pre> 487, 489, 486, 491, 485, 494, 493, 484, 488, 492</pre><br/>
-     Calculate the mean of the classroom temperature in <span class="math inline">\(^\circ F\)</span> using the theoretical expression. 
-     Assume that the sample is normally distributed with a standard deviation of <span class="math inline">\(3^\circ F\)</span>. 
-     What is the probability that the classroom temperature is greater than <span class="math inline">\(74^\circ F\)</span>?
-
-  </li>
 <li><p>A medical study investigating the relationship between noise exposure and hypertension found the following data.</p>
 <table class="table">
 <colgroup>
@@ -3193,8 +3189,14 @@ vertical-align: -.125em;
 <li>Determine the regression coefficients, coefficient of determination, and adjusted coefficient of determination for a linear fit.</li>
 <li>Does the scale have a zero offset? If so, how much?</li>
 </ol></li>
-
+<li><p>Modify the <code>linear_coeffs</code> function defined in <a href="14.Linear%20Regression.html">14.Linear Regression</a> such that the function finds the linear coefficients for multiple independent variables. The function should return the coefficients <span class="math inline">\(\beta_0\)</span>, <span class="math inline">\(\beta_1\)</span>, and <span class="math inline">\(\beta_2\)</span> for the functional form of</p></li>
+</ol>
+<p><span class="math display">\[ y = f \left( x, z \right) = \beta_0 + \beta_1 x + \beta_2 z \]</span></p>
+<div class="list-indent">
+<p>This type of regression is known as a <a href="https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression">multiple linear regression</a>. Using the <a href="datasets/body_fat.xlsx">body fat data</a> used in <a href="Homework%204.html">Homework 4</a>, find the linear coefficients (i.e., the beta terms) of the multiple linear regression of the body fat (Brozek) data as a function of every possible combination of two of the independent variables neck, chest, thigh, and bicep circumference (6 sets of regression coefficients). How do these multiple linear regression fits compare to a regular linear regression fit (a regression fit with only one independent variable)? Which is the best fit? Why?</p>
+</div>
 <hr>
+<p>Homework submission should be made on Moodle.</p>
 
 </main>
 <!-- /main column -->
