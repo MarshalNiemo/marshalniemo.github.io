@@ -2547,6 +2547,31 @@ vertical-align: -.125em;
 <style type="text/css">.answer {text-align: right;}.table {font-size: 0.75rem;}.table tbody tr.odd {background-color: #F5F5F5;}.table tbody tr:hover {background-color: #D9EDFD;}.table p {margin: 0;}.due-header p {text-transform: uppercase;margin-top: 1em;margin-bottom: 0;font-size: .8em;opacity: .8;font-weight: 400;}.due-content {font-size: 0.9em;margin-top: 0;margin-bottom: 0.1em;}.list-indent {padding-left: 2rem;}.center-text {text-align: center;}</style>
 </head>
 
+<!-- Custom stylesheet, it must be in the same directory as the html file -->
+<link href="custom.css" rel="stylesheet"/>
+<!-- Loading mathjax macro -->
+<!-- Load mathjax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+<!-- End of mathjax configuration --></head>
+
 <body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
@@ -2557,7 +2582,7 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Homework 8</h1>
+<h1 class="title">Homework 8 Problem Statement</h1>
 </div>
 
 

@@ -3074,6 +3074,31 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <style type="text/css">.answer {text-align: right;}.table {font-size: 0.75rem;}.table tbody tr.odd {background-color: #F5F5F5;}.table tbody tr:hover {background-color: #D9EDFD;}.table p {margin: 0;}.due-header p {text-transform: uppercase;margin-top: 1em;margin-bottom: 0;font-size: .8em;opacity: .8;font-weight: 400;}.due-content {font-size: 0.9em;margin-top: 0;margin-bottom: 0.1em;}.list-indent {padding-left: 2rem;}.center-text {text-align: center;}</style>
 </head>
 
+<!-- Custom stylesheet, it must be in the same directory as the html file -->
+<link href="custom.css" rel="stylesheet"/>
+<!-- Loading mathjax macro -->
+<!-- Load mathjax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+<!-- End of mathjax configuration --></head>
+
 <body class="fullcontent">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
@@ -3086,29 +3111,24 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 </div>
 
 
-
 <div class="quarto-title-meta">
 
     
   
-    <div>
+  <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">Mo 2023-04-17 10:40</p>
-    </div>
-  </div>
+      <p class="date-modified"><span id="lastModified"></span></p>
     
   </div>
-  
+    
+</div>
 
+<script>
+  document.getElementById("lastModified").textContent = document.lastModified;
+</script>
 </header>
 
-<div class="due-header">
-<p>Due</p>
-</div>
-<div class="due-content">
-<p>Mo 2023-04-24 14:00</p>
-</div>
 <hr>
 <p>Do the following in <a href="Engineering%20Format%20Example.pdf">engineering format</a>.</p>
 <ol type="1">
