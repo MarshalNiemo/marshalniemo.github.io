@@ -2610,39 +2610,56 @@ vertical-align: -.125em;
 <ol type="1">
 <li><p>For the <a href="datasets/photoresistor.csv">photoresistor data collected in class</a>, find the mean, and standard deviation. What is the range of the data? What is the mode? Create a histogram of the data using an appropriate number of bins. What are some possible causes for variation in the data?</p></li>
 
+<li><p>An automotive manufacturer removes the friction linings from the clutch plates of drag race cars following test runs. A sampling of 10 linings for wear show the following values (in <span class="math inline">\(\mu m\)</span>):</p></li>
 
-  <li>
-    From a large sampling ($ N &gt; 5000 $), we find that $ x $ has a mean value of $ 5.2 $ and a standard deviation of $ 1.0 $. Determine the range of values containing $ 50 \% $ of the population of $ x $ centered about the mean value. Assume $ x $ is normally distributed.
-  </li>
-  
-  <li>
-    At a fixed operating setting, the pressure in a line downstream of a reciprocating compressor has a mean value of $ 12.0 bar $ with a standard deviation of $ 1.0 bar $ based on a very large data set obtained from continuous monitoring. What is the probability that the line pressure will exceed $ 13.0 bar $?
-  </li>
-  
-  <li>
-    The compressive strength of samples of cement can be modeled by a normal distribution with a mean of $ 6000 $ kilograms per square centimeter and a standard deviation of $ 100 $ kilogram per square centimeter.
-    <ol>
-  <li>
-            What is the probability that a sample's strength is less than $ 6250 \frac{kg}{cm^2} $?
-        </li>
-  <li>
-            What is the probability that a sample's strength is between $ 6250 $ and $ 5900 \frac{kg}{cm^2} $?
-        </li>
-  <li>
-            What strength is exceeded by $ 95 \% $ of the samples?
-        </li>
-  </ol>
-  </li>
-
-  <li><p>An automotive manufacturer removes the friction linings from the clutch plates of drag race cars following test runs. A sampling of 10 linings for wear show the following values (in <span class="math inline">\(\mu m\)</span>):</p></li>
-</ol>
 <p><span class="math display">\[ 204.5,\ 231.1,\ 157.5,\ 190.5,\ 261.6,\ 127.0,\ 216.6,\ 172.7,\ 243.8,\ 291.0 \]</span></p>
 <div class="list-indent">
 <p>Estimate the average wear and its variance. Based on this sample, how many clutch plates will be expected to show wear of more than <span class="math inline">\(203 \mu m\)</span>? Assume a large number of clutch plates were examined and found to have the same average and variance as the average and variance of this sample. How many clutch plates out of a large set will be expected to show wear of more than <span class="math inline">\(203 \mu m\)</span>?</p>
 </div>
 
+<li><p>The wall thickness of <span class="math inline">\(25\)</span> glass 2-liter bottles was measured by a quality-control engineer. The sample mean was <span class="math inline">\(4.05 mm\)</span> and the sample standard deviation was <span class="math inline">\(0.08 mm\)</span>. What is the <span class="math inline">\(95\%\)</span> lower confidence bound for the mean wall thickness?</p></li>
+<li><p>A machine produces metal rods used in an automobile suspension system. A random sample of 15 rods is selected, and the diameter is measured. The resulting data (in <span class="math inline">\(mm\)</span>) are as follows:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>8.24</td>
+<td>8.21</td>
+<td>8.23</td>
+</tr>
+<tr class="even">
+<td>8.25</td>
+<td>8.26</td>
+<td>8.23</td>
+</tr>
+<tr class="odd">
+<td>8.20</td>
+<td>8.26</td>
+<td>8.19</td>
+</tr>
+<tr class="even">
+<td>8.23</td>
+<td>8.20</td>
+<td>8.25</td>
+</tr>
+<tr class="odd">
+<td>8.24</td>
+<td>8.25</td>
+<td>8.24</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<div class="list-indent">
+<p>Plot the student distribution for this sample (centered at the mean of the sample). What is the probability that a rod larger than <span class="math inline">\(8.28 mm\)</span> is produced?</p>
+</div>
+<ol start="5" type="1">
+<li>The brightness of a television picture tube can be evaluated by measuring the amount of current required to achieve a particular brightness level. A sample of 10 tubes results in a mean and standard deviation of <span class="math inline">\(317.2\)</span> and <span class="math inline">\(15.7\)</span>, respectively (in <span class="math inline">\(\mu A\)</span>). What is the probability that a television picture tube draws more current than <span class="math inline">\(364 \mu A\)</span>?</li>
 
-
+  <li><p>Modify the <code>linear_coeffs</code> function defined in <a href="../../Common Files/Linear Regression.html">Linear Regression</a> such that the function finds the linear coefficients for multiple independent variables. The function should return the coefficients <span class="math inline">\(\beta_0\)</span>, <span class="math inline">\(\beta_1\)</span>, and <span class="math inline">\(\beta_2\)</span> for the functional form of</p></li>
+<p><span class="math display">\[ y = f \left( x, z \right) = \beta_0 + \beta_1 x + \beta_2 z \]</span></p>
+<div class="list-indent">
+<p>This type of regression is known as a <a href="https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression">multiple linear regression</a>. Using the <a href="datasets/body_fat.xlsx">body fat data</a> used in <a href="Homework%204.html">Homework 4</a>, find the linear coefficients (i.e., the beta terms) of the multiple linear regression of the body fat (Brozek) data as a function of every possible combination of two of the independent variables neck, chest, thigh, and bicep circumference (6 sets of regression coefficients). How do these multiple linear regression fits compare to a regular linear regression fit (a regression fit with only one independent variable)? Which is the best fit? Why?</p>
+</div>
 </ol>
 
 
