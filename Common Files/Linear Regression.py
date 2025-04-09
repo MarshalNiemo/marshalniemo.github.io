@@ -76,7 +76,7 @@ def coeff_of_determination(xs, ys, f):
     denom = 0
     ybar = statistics.mean(ys)
     for i, x in enumerate(xs):
-        num += (ys[i] - f(x))**2
+        num += (ys[i] - f(xs, ys, x))**2
         denom += (ys[i] - ybar)**2
     R2 = 1 - num/denom
     return R2
@@ -85,8 +85,8 @@ def coeff_of_determination(xs, ys, f):
 # In[9]:
 
 
-def my_fit(x):
-    B = linear_coeffs(R, T)
+def my_fit(xs, ys, x):
+    B = linear_coeffs(xs, ys)
     y = B[0] + B[1]*x
     return y
 
