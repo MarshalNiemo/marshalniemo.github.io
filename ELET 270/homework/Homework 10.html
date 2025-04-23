@@ -3074,6 +3074,31 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <style type="text/css">.answer {text-align: right;}.table {font-size: 0.75rem;}.table tbody tr.odd {background-color: #F5F5F5;}.table tbody tr:hover {background-color: #D9EDFD;}.table p {margin: 0;}.due-header p {text-transform: uppercase;margin-top: 1em;margin-bottom: 0;font-size: .8em;opacity: .8;font-weight: 400;}.due-content {font-size: 0.9em;margin-top: 0;margin-bottom: 0.1em;}.list-indent {padding-left: 2rem;}.center-text {text-align: center;}</style>
 </head>
 
+<!-- Custom stylesheet, it must be in the same directory as the html file -->
+<link href="custom.css" rel="stylesheet"/>
+<!-- Loading mathjax macro -->
+<!-- Load mathjax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+<!-- End of mathjax configuration --></head>
+
 <body class="fullcontent">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
@@ -3112,16 +3137,13 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <hr>
 <p>Do the following in <a href="Engineering%20Format%20Example.pdf">engineering format</a>.</p>
 <ol type="1">
-<li>A refrigeration unit extracts energy from a cold space at <span class="math inline">\(T_c\)</span> and transfers energy as heat to a warm environment at <span class="math inline">\(T_h\)</span>. A Carnot refrigerator defines the ideal case, and its coefficient of performance is defined by</li>
-</ol>
-<p><span class="math display">\[ C.O.P. = \frac{T_c}{T_h - T_c} \]</span></p>
-<div class="list-indent">
-<p>Assume equal uncertainties (in <span class="math inline">\(^\circ C\)</span>) in the measurement of <span class="math inline">\(T_c\)</span> and <span class="math inline">\(T_h\)</span>. How well must the temperature measurements be made for this ideal <span class="math inline">\(C.O.P.\)</span> to be determined to within <span class="math inline">\(1 \%\)</span> when the nominal value if <span class="math inline">\(T_c\)</span> and <span class="math inline">\(T_h\)</span> are <span class="math inline">\(-10^\circ C\)</span> and <span class="math inline">\(20 ^\circ C\)</span>, respectively?</p>
-</div>
   <li>
     Your thermistor circuit's bias resistor has an uncertainty of 5% of its value, and analog value measurements have a typical uncertainty of $\pm$ 0.5. 
     Using the manufacturer's theoretical expression, what is the uncertainty of your temperature at 70 $ ^\circ F $? 100 $ ^\circ F $? 
 </li>
+</div>
+
+<ol start="2" type="1"></ol>
 <li>The expression for the efficiency <span class="math inline">\(\eta\)</span> of an adiabatic turbine is given by</li>
 </ol>
 <p><span class="math display">\[ \eta = \frac{1 - \frac{T_2}{T_1}}{1 - \left( \frac{P_2}{P_1} \right)^{\frac{\gamma - 1}{\gamma}}} \]</span></p>
@@ -3167,6 +3189,14 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <div class="list-indent">
 <p>Estimate the total uncertainty and the percent uncertainty of the adiabatic turbine efficiency.</p>
 </div>
+<ol start="3" type="1">
+<li>A refrigeration unit extracts energy from a cold space at <span class="math inline">\(T_c\)</span> and transfers energy as heat to a warm environment at <span class="math inline">\(T_h\)</span>. A Carnot refrigerator defines the ideal case, and its coefficient of performance is defined by</li>
+</ol>
+<p><span class="math display">\[ C.O.P. = \frac{T_c}{T_h - T_c} \]</span></p>
+<div class="list-indent">
+<p>Assume equal uncertainties (in <span class="math inline">\(^\circ C\)</span>) in the measurement of <span class="math inline">\(T_c\)</span> and <span class="math inline">\(T_h\)</span>. How well must the temperature measurements be made for this ideal <span class="math inline">\(C.O.P.\)</span> to be determined to within <span class="math inline">\(1 \%\)</span> when the nominal value if <span class="math inline">\(T_c\)</span> and <span class="math inline">\(T_h\)</span> are <span class="math inline">\(-10^\circ C\)</span> and <span class="math inline">\(20 ^\circ C\)</span>, respectively?</p>
+</div>
+
 <ol start="4" type="1">
 <li><p>When using a strain gauge with a nominal value of <span class="math inline">\(250 \Omega\)</span> and gauge factor of <span class="math inline">\(2.14\)</span>, a Wheatstone bridge is constructed such that it is perfectly balanced with an excitation voltage of <span class="math inline">\(5 V\)</span>. The strain gauge is mounted on a steel cantilever beam. The beam is then loaded with a force at the end of the beam such that the Wheatstone bridge output is <span class="math inline">\(0.05 mV\)</span>. What is the stress experienced at the location of the strain gauge?</p></li>
 <li><p>Using your choice of three of the available resistors from the table below, build a Wheatstone bridge that is as balanced as can be for a strain gauge that has nominal value of <span class="math inline">\(120 \Omega\)</span>. What are the resistors used in the Wheatstone bridge and what is the resulting unbalanced voltage if an excitation voltage of <span class="math inline">\(5 V\)</span> is used?</p></li>
