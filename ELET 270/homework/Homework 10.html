@@ -3182,7 +3182,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 
 
 
-<ol start="2" type="1"></ol>
+<ol start="2" type="1">
   <li>
     Your thermistor circuit's bias resistor has an uncertainty of 5% of its value, and analog value measurements have a typical uncertainty of $\pm$ 0.5. 
     Using the manufacturer's theoretical expression, what is the uncertainty of your temperature at 70 $ ^\circ F $? 100 $ ^\circ F $? 
@@ -3190,11 +3190,18 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 </div>
 
 <ol start="3" type="1">
-<li>A heat transfer experiment is to be run with the anticipated behavior given by</li>
-</ol>
-<p><span class="math display">\[ \bar T = e^{\frac{-t}{\tau}} \]</span></p>
-<div class="list-indent">
-<p>where <span class="math inline">\(\bar T\)</span> is a nondimensional temperature that varies from <span class="math inline">\(0\)</span> to <span class="math inline">\(1\)</span> and can be measured within <span class="math inline">\(2 \%\)</span>, <span class="math inline">\(t\)</span> is time in seconds and can be measured within <span class="math inline">\(1 \%\)</span>, and <span class="math inline">\(\tau\)</span> is the time constant that is to be determined from the experiment. Determine the behavior of the uncertainty in <span class="math inline">\(\tau\)</span> over the range of possible values for <span class="math inline">\(\bar T\)</span> . Plot the percent uncertainty of <span class="math inline">\(\tau\)</span> versus <span class="math inline">\(\bar T\)</span> for <span class="math inline">\(\bar T\)</span> from <span class="math inline">\(0\)</span> to <span class="math inline">\(1\)</span>.</p>
+  The expression for the efficiency $ \eta $ of an adiabatic turbine is given by
+  $$ \eta = \frac{1 - \frac{T_2}{T_1}}{1 - \left( \frac{P_2}{P_1} \right)^{\frac{\gamma - 1}{\gamma}}} $$
+  where the inlet and outlet temperature and pressure are denoted by 1 and 2, respectively, and $ \gamma $ is the ratio of the specific heats. Use the following nominal values and total uncertainty estimates for the variables:
+  <table>
+<tr><td>Variable</td><td>Nominal Value</td><td>Uncertainty</td></tr>
+<tr><td>$ P_1 $</td><td>$ 517 kPa $</td><td>$ 10 \% $</td></tr>
+<tr><td>$ P_2 $</td><td>$ 100 kPa $</td><td>$ 10 \% $</td></tr>
+<tr><td>$ T_1 $</td><td>$ 1273 K $</td><td>$ 3 \% $</td></tr>
+<tr><td>$ T_2 $</td><td>$ 853 K $</td><td>$ 3 \% $</td></tr>
+<tr><td>$ \gamma $</td><td>$ 1.4 $</td><td>$ 0.5 \% $</td></tr>
+</table>
+  Estimate the total uncertainty and the percent uncertainty of the adiabatic turbine efficiency.
 </div>
 
 
