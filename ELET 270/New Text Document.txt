@@ -1,0 +1,398 @@
+<hr>
+<section id="var-course.name-var-quarter.name-var-quarter.year" class="level3">
+<h3 class="anchored" data-anchor-id="var-course.name-var-quarter.name-var-quarter.year">Instrumentation Spring 2025</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">Class</th>
+<th style="text-align: left;">Day</th>
+<th style="text-align: left;">Topic</th>
+<th>Activity</th>
+<th style="text-align: left;">Assignments</th>
+</tr>
+</thead>
+<tbody>
+  <tr>
+    <td style="text-align:center">1</td>
+    <td style="text-align:center">W 3.12</td>
+    <td style="text-align:left"><a href="../Common Files/ELET 270 Introduction.html" target="_blank">Introduction<br/>
+      <a href="../Common Files/Python Primer.html" target="_blank">Python Primer</a> 
+      <br/> <a href="../Common Files/Plotting in Python.html" target="_blank">Plotting in Python</a>
+    </a> 
+      </td>
+    <td style="text-align:left">
+      ICA 1 - Table Measurements</td>
+    <td style="text-align:left"><a href="homework/Homework 1.html" target="_blank">Homework 1</a>, due W 3.19 </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">2</td>
+    <td style="text-align:center">F 3.14</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">
+      Lab 1 - <a href="Lab%20-%20Lab%20Equipment%20and%20Safety.html">Lab Equipment and Safety</a>
+    </td>
+    <td style="text-align:left">
+      <a href="https://forms.gle/ZUdXzf4VMmDhPwJc6">Lab Equipment and Safety quiz</a></p>
+      <p><a href="https://forms.gle/E3vCiCQTpPDtFDPj9">Kit Checklist</a>, due F 3.14</p>
+      <p>Lab Memo 1 due F 3.21</p>
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">3</td>
+    <td style="text-align:center">M 3.17</td>
+    <td style="text-align:left">
+      <a href="../Common Files/Arduino Primer.html" target="_blank">Arduino Primer</a> 
+      <br/> <a href="../Common Files/Python CSV File Example.html" target="_blank">Python CSV File Example</a>
+      </td>
+    <td style="text-align:left">
+      ICA 2 - <a href="Activity - Thermistor waterproofing.html" target="_blank">Thermistor waterproofing</a>, due W 3.19
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 2.html" target="_blank">Homework 2</a>, due M 3.24
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">4</td>
+    <td style="text-align:center">W 3.19</td>
+    <td style="text-align:left"> 
+      <a href="../Common Files/Unit Standards.html" target="_blank">Unit Standards</a>
+      <br/> <a href="../Common Files/custom_functions.py" target="_blank">Custom Functions.py</a> 
+      <br/> <a href="../Common Files/custom_functions_test.py" target="_blank">Custom Functions Test.py</a>
+      <br/><a href="../Common Files/Serial Peripheral Interface.html" target="_blank">Serial Peripheral Interface</a> 
+    </td>
+    <td style="text-align:left">
+      ICA 3 - Practice Through-Hole Soldering, due F 3.21
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 3.html" target="_blank">Homework 3</a>, due W 3.26
+      <br/> Podcast 1 - <a href="http://lineardigressions.com/episodes/2016/2/23/statistical-mistakes-and-the-challenger-disaster">Statistical Mistakes and the Challenger Disaster</a>
+      <br/>Podcast 1 Quiz</a> 
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">5</td>
+    <td style="text-align:center">F 3.21</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">
+      Lab 2 - <a href="Lab%20-%20microSD%20Shield%20Assembly%20and%20Testing.html">microSD Card Shield Assembly and Testing
+      </td>
+    <td style="text-align:left">
+      Lab 2 Memo, due F 3.28
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">6</td>
+    <td style="text-align:center">M 3.24</td>
+    <td style="text-align:left">
+      <a href="../Common Files/Numbering Systems.html" target="_blank">Numbering Systems</a>
+      <br/><a href="../Common Files/Number Conversions.ino">Number Conversions.ino</a>
+      <br/><a href="../Common Files/Character Encodings.html">Character Encodings</a>
+      <br/><a href="../Common Files/Serial Write.ino">Serial Write.ino</a>
+      <br/><a href="../Common Files/SDWrite.ino">SDWrite.ino</a>
+      <br/><a href="../Common Files/SDRead.ino">SDRead.ino</a>
+      <br/><a href="../Common Files/SDLogger.ino">SDLogger.ino</a>
+      
+    </td>
+    <td style="text-align:left">
+      ICA 4 - Demonstrate microSD Card Shield, due W 3.26
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 4.html" target="_blank">Homework 4</a>, due M 3.31 
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">7</td>
+    <td style="text-align:center">W 3.26</td>
+    <td style="text-align:left">
+      <a href="../Common Files/Measurement Terminology.html" target="_blank">Measurement Terminology</a>
+      <br/> <a href="../Common Files/Python Excel File Example.html" target="_blank">Python Excel File Example</a>
+      <br/> <a href="../Common Files/Project Description.html" target="_blank">Project Description</a> 
+      <br/> <a href="../Common Files/Project Deliverables.html" target="_blank">Project Deliverables</a> 
+      
+    </td>
+    <td style="text-align:left">
+      ICA 5 - Discuss Measurement System Examples
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 5.html" target="_blank">Homework 5</a>, due W 4.2
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">8</td>
+    <td style="text-align:center">F 3.28</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">Lab 3 - <a href="Lab - Inter-Integrated Circuit.html" target="_blank">Inter-Integrated Circuit</a></td>
+    <td style="text-align:left">Lab 3 Memo, due F 4.4</td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">9</td>
+    <td style="text-align:center">M 3.31</td>
+    <td style="text-align:left">
+      <a href="../Common Files/Statistics Introduction.html" target="_blank">Statistics Introduction</a>
+      <br/> <a href="../Common Files/Normal Distribution.html" target="_blank">Normal Distribution</a>
+      
+    </td>
+    <td style="text-align:left">
+      ICA 6 - Statistics Poll
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 6.html" target="_blank">Homework 6</a>, due M 4.7
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">10</td>
+    <td style="text-align:center">W 4.2</td>
+    <td style="text-align:left">
+      <a href="../Common Files/Linear Regression.html" target="_blank">Linear Regression</a>
+      <br/> <a href="../Common Files/Thermistor Data Collection.html" target="_blank">Thermistor Data Collection</a>
+      <br/> <a href="../Common Files/Inter-Integrated Circuit Bus.pdf" target="_blank">I2C Review</a>
+     </td>
+    <td style="text-align:left">
+      ICA 7 - <a href="Activity - Thermistor calibration.html" target="_blank">Thermistor Calibration</a>, due F 4.4
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 7.html" target="_blank">Homework 7</a>, due W 4.9
+      <p>Podcast 2 - <a href="http://lineardigressions.com/episodes/2018/3/25/google-flu-trends">Google Flu Trends</a></p>
+      <p>Podcast 2 Quiz</a></p>
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">11</td>
+    <td style="text-align:center">F 4.4</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">Lab 4 - <a href="Lab - Flowmeter Calibration.html" target="_blank">Flowmeter Calibration</a></td>
+    <td style="text-align:left">Lab 4 Memo, due F 4.11</td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">12</td>
+    <td style="text-align:center">M 4.7</td>
+    <td style="text-align:left"><a href="../Common Files/Student Distribution.html" target="_blank">Student Distribution</a>
+    <br/><a href="../Common Files/Photoresistor Data Collection.html" target="_blank">Photoresistor Data Collection</a></td>
+    <td style="text-align:left">ICA 8 - <a href="../Common Files/activities/Activity - Photoresistor implementation.html" target="_blank">Photoresistor Implementation</a></td>
+    <td style="text-align:left">
+      <a href="homework/Homework 8.html" target="_blank">Homework 8</a>, due M 4.14
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">13</td>
+    <td style="text-align:center">W 4.9</td>
+    <td style="text-align:left">
+      Homework Review
+      </td>
+    <td style="text-align:left">ICA 9 - Preliminary Project Proposal</td>
+    <td style="text-align:left">
+      <a href="homework/Homework 9.html" target="_blank">Homework 9</a>, due W 4.16
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">14</td>
+    <td style="text-align:center">F 4.11</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">15</td>
+    <td style="text-align:center">M 4.14</td>
+    <td style="text-align:left"><a href="../Common Files/Exam 1 Study Shortlist.html" target="_blank">Exam 1 Review</a>
+    </td>
+    <td style="text-align:left">Lab 5 - <a href="Lab - Reservoir Volume.html" target="_blank">Reservoir Volume</a>
+
+    </td>
+    <td style="text-align:left">Lab 5 Memo, due F 4.25</td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">16</td>
+    <td style="text-align:center">W 4.16</td>
+    <td style="text-align:left">Exam 1</td>
+    <td style="text-align:left">
+  
+    </td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">17</td>
+    <td style="text-align:center">F 4.18</td>
+    <td style="text-align:left">No Class - Easter Holiday</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">18</td>
+    <td style="text-align:center">M 4.21</td>
+    <td style="text-align:left">No Class - Easter Holiday</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">19</td>
+    <td style="text-align:center">W 4.23</td>
+    <td style="text-align:left"><a href="../Common Files/Experimental Uncertainty.html" target="_blank">Experimental Uncertainty</a>
+      <br/><a href="../Common Files/Experimental Uncertainty Example 1.html" target="_blank">Uncertainty Example 1</a>
+      <br/><a href="../Common Files/Experimental Uncertainty Example 2.html" target="_blank">Uncertainty Example 2</a>
+      <br/><a href="../Common Files/Strain Gauges.html" target="_blank">Strain Gauges</a></td>
+    <td style="text-align:left">
+      ICA 10 - Strain Gauge Mounting
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 10.html" target="_blank">Homework 10</a>, due W 4.30
+      <p>Podcast 3 - <a href="http://lineardigressions.com/episodes/2016/2/29/guinness" target="_blank">Guinness</a></p>
+      <p>Podcast 3 Quiz</a></p>
+    </td>
+    
+    </tr>
+
+    <tr>
+    <td style="text-align:center">20</td>
+    <td style="text-align:center">F 4.25</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">Lab 6 - <a href="Lab - Strain Gauges and Load Cells.html" target="_blank">Strain Gauges and Load Cells</a></td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">21</td>
+    <td style="text-align:center">M 4.28</td>
+    <td style="text-align:left"><a href="../Common Files/Population Parameter Estimation.html" target="_blank"> Population Parameter Estimation</a></td>
+    <td style="text-align:left">
+      ICA 11 - <a href="Activity - Microphone.html" target="_blank"> Microphone</a>
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 11.html" target="_blank">Homework 11</a>, due M 5.5
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">22</td>
+    <td style="text-align:center">W 4.30</td>
+    <td style="text-align:left"><a href="../Common Files/Random Uncertainty.html" target="_blank">Random Uncertainty</a></td>
+    <td style="text-align:left">
+      ICA 12 - <a href="Activity - Hall effect sensor.html" target="_blank"> Hall Effecct Sensor</a>
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 12.html" target="_blank">Homework 12</a>, due W 5.7
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">23</td>
+    <td style="text-align:center">F 5.2</td>
+    <td style="text-align:left"><a href="../Common Files/Operational Amplifiers.html" target="_blank">Operational Amplifiers</a></td>
+    <td style="text-align:left">
+      ICA 13 - <a href="Activity - Operational amplifier.html" target="_blank">Operational Amplifiers</a>
+    </td>
+    <td style="text-align:left">
+      
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">24</td>
+    <td style="text-align:center">M 5.5</td>
+    <td style="text-align:left"><a href="../Common Files/23.Analog and Digital Measurements.pdf" target="_blank">Analog and Digital Measurements</a>
+   <br/> Data collection can begin after demonstration</td>
+    <td style="text-align:left">
+      ICA 13 - Demonstrate Project</td>
+    <td style="text-align:left">
+      <a href="homework/Homework 13.html" target="_blank">Homework 13</a>, due M 5.12
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">25</td>
+    <td style="text-align:center">W 5.7</td>
+    <td style="text-align:left">
+      <a href="../Common Files/Dynamic Measurements.pdf" target="_blank">Dynamic Measurements</a>
+      <br/><a href="../Common Files/Sampling Rate.html" target="_blank">Sampling Rate</a>
+      <br/><a href="Activity - Sample Aliasing.html" target="_blank">Sampling Aliasing Demonstration</a></td>
+    <td style="text-align:left">
+      
+    </td>
+    <td style="text-align:left">
+      <a href="homework/Homework 14.html" target="_blank">Homework 14</a>, due W 5.14
+    </td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">26</td>
+    <td style="text-align:center">F 5.9</td>
+    <td style="text-align:left">No Class, Capstone Conference</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">27</td>
+    <td style="text-align:center">M 5.12</td>
+    <td style="text-align:left">Project Work</td>
+    <td style="text-align:left">
+   
+    </td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">28</td>
+    <td style="text-align:center">W 5.14</td>
+    <td style="text-align:left">Project Work</td>
+    <td style="text-align:left">
+    
+    </td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">29</td>
+    <td style="text-align:center">F 5.16</td>
+    <td style="text-align:left"><a href="Exam 2 Study Shortlist.html" target="_blank">Exam 2 Review</a></td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">Data Packet Due by end of Day 5.18</td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">30</td>
+    <td style="text-align:center">M 5.19</td>
+    <td style="text-align:left">Exam 2</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">31</td>
+    <td style="text-align:center">W 5.21</td>
+    <td style="text-align:left"><a href="../Common Files/Project Deliverables.html" target="_blank">Project Presentations</a></td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left">Technical Report Due by end of day 5.22</td>
+    </tr>
+
+    <tr>
+    <td style="text-align:center">32</td>
+    <td style="text-align:center">F 5.23</td>
+    <td style="text-align:left">No Class</td>
+    <td style="text-align:left"></td>
+    <td style="text-align:left"></td>
+    </tr>
+  
+
+</tbody>
+</table>
+<p>ICA is an abbreviation for in-class activity.</p>
+</section>
